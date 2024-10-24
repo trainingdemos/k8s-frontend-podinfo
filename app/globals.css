@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f7fafc;
+  --foreground: #00084d;
+}
+
+body {
+  background: var(--background) url("images/logos.svg") no-repeat bottom 5rem right 3rem;
+  background-size: 220px;
+  color: var(--foreground);
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

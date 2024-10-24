@@ -1,0 +1,9 @@
+{
+  "image": {
+    "namespace": "trainingdemos",
+    "repository": "k8s-frontend-podinfo",
+    "tags": [
+      "latest", "1.0", "1.0.1"
+    ]
+  }
+}
